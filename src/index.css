@@ -1,0 +1,428 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.studentImg {
+  width: 80px;
+  height: 50px;
+}
+
+/* Login Page Start */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loginForm {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  width: 475px;
+  height: 550px;
+}
+.loginForm h4 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  margin: 40px 0;
+  border-left: 6px solid rgba(248, 212, 66, 1);
+  padding-left: 10px;
+  height: fit-content;
+}
+
+.loginForm h3 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.loginForm span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(108, 108, 108, 1);
+  display: block;
+  margin: 12px 0px;
+}
+
+.loginForm label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(108, 108, 108, 1);
+}
+.form-control {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(205, 205, 205, 1);
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 4px;
+  font-family: Arial, FontAwesome;
+}
+
+.loginForm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(254, 175, 0, 1);
+  border-radius: 4px;
+  border-color: unset;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+}
+
+.loginForm a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(254, 175, 0, 1);
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #d4a507 !important;
+  border-color: #d4a507 !important;
+}
+
+@media (max-width: 768px) {
+  .loginForm {
+    width: 100%;
+  }
+  .loginForm h4 {
+    font-size: 28px;
+  }
+}
+/* Login Page End */
+
+/* Sidebar  Start */
+
+.sideBar {
+  background: rgba(242, 234, 225, 1);
+  padding: 30px 0;
+  height: 100vh;
+}
+
+.active-page {
+  background-color: rgba(254, 175, 0, 1);
+  border-radius: 4px;
+}
+
+.projectTitle {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center !important;
+  border-left: 4px solid rgba(248, 212, 66, 1);
+  padding-left: 10px;
+  height: fit-content;
+}
+
+#adminImg {
+  border-radius: 50%;
+  margin-top: 35px;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+.sideBar .col-12:first-child {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sideBar .col-12:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.sideBar .col-12:nth-child(3) {
+  margin-bottom: 20px;
+}
+.navItemContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px 50px;
+}
+.navItemContainer a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: unset;
+  padding: 5px 0;
+}
+.nav-item .active + .navItemContainer {
+  background-color: rgba(254, 175, 0, 1);
+}
+.navItemContainer:hover {
+  background-color: rgba(254, 175, 0, 1);
+  border-radius: 4px;
+}
+
+.adminInfoDiv p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: rgba(254, 175, 0, 1);
+}
+.adminInfoDiv span {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding: 14px 0;
+  display: block;
+}
+
+.navBarIcon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.logOut {
+  cursor: pointer;
+}
+.logOut .navBarIcon {
+  margin-left: 10px;
+}
+/* Sidebar  End */
+
+/* Dashboar Start */
+.dashboardCards .col-lg-3:nth-child(1) .card-body {
+  background-color: rgba(240, 249, 255, 1) !important;
+  border-radius: 8px;
+}
+
+.dashboardCards .col-lg-3:nth-child(2) .card-body {
+  background-color: rgba(254, 246, 251, 1) !important;
+  border-radius: 8px;
+}
+
+.dashboardCards .col-lg-3:nth-child(3) .card-body {
+  background-color: rgba(254, 251, 236, 1) !important;
+  border-radius: 8px;
+}
+
+.dashboardCards .col-lg-3:nth-child(4) .card-body {
+  background: linear-gradient(
+    110.42deg,
+    #feaf00 18.27%,
+    #f8d442 91.84%
+  ) !important;
+  border-radius: 8px;
+}
+
+.dashboardCards .card-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 6px;
+  color: rgba(108, 108, 108, 1);
+}
+
+.dashboardCards .card-title-bottom {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-bottom: unset;
+}
+.dashboardCards {
+  margin-right: 0 !important;
+}
+
+.dashboardCards .col-lg-3 {
+  /* flex: 1;
+  display: flex; */
+  margin-bottom: 20px;
+}
+
+.dashboardCards .card {
+  flex-grow: 1;
+  height: 100%;
+  border: unset !important;
+}
+
+/* Dashboard End */
+
+/* Students Page  Start */
+
+.notiDiv img {
+  width: 40px;
+}
+.notiDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px !important;
+  background-color: #ffffff !important;
+}
+
+.dataTableDiv,
+.rdt_Table,
+.rdt_TableHead,
+.rdt_TableHeadRow,
+.rdt_Pagination {
+  background-color: #f8f8f8 !important;
+  border: unset !important;
+}
+
+#pagination-first-page,
+#pagination-last-page {
+  display: none;
+}
+
+.rdt_TableRow {
+  padding: 12px 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 8px 0;
+  border: unset !important;
+}
+.rdt_TableRow:first-child {
+  margin-top: unset !important;
+  margin-bottom: 10px;
+}
+.rdt_TableHeadRow {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: rgba(172, 172, 172, 1);
+}
+#tableCrudDiv img {
+  width: 19px;
+  height: 19px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.rdt_TableBody {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 17px !important;
+  letter-spacing: 0em !important;
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.dataTableDiv {
+  padding: 20px;
+}
+.dataTableTitleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.dataTableTitleRow h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.dataTableTitleRow button {
+  background: rgba(254, 175, 0, 1);
+  border-color: unset;
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: -webkit-fill-available;
+  border-radius: 4px;
+}
+
+.popup-content {
+  transition: transform 0.3s ease-out;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 8px;
+  background: #f8f8f8;
+  padding: 40px;
+}
+
+.popup-content button {
+  background: rgba(254, 175, 0, 1);
+  border-color: unset;
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 6px 60px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-group label {
+  margin: 12px 0;
+}

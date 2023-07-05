@@ -1,0 +1,95 @@
+body {
+  /* background: linear-gradient(to bottom, #feaf00 0%, #f8d442 100%); */
+  overflow-x: hidden;
+}
+
+.loginForm {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  height: 550px;
+}
+.loginForm h4 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  margin: 40px 0;
+  border-left: 6px solid rgba(248, 212, 66, 1);
+  padding-left: 10px;
+  height: fit-content;
+}
+
+.loginForm h3 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.loginForm span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(108, 108, 108, 1);
+  display: block;
+  margin: 12px 0px;
+}
+
+.loginForm label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(108, 108, 108, 1);
+}
+.form-control {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(205, 205, 205, 1);
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 4px;
+  font-family: Arial, FontAwesome;
+}
+
+.loginForm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(254, 175, 0, 1);
+  border-radius: 4px;
+  border-color: unset;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+}
+
+.loginForm a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(254, 175, 0, 1);
+}
